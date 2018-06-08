@@ -1,0 +1,19 @@
+def baked(name, high, hits):
+
+  stoned = (high + hits) / 2
+  print("Your stoner scale reading is " + str(stoned) + "!!!")
+  if stoned <=10:
+    print("You'll be alright.." + name + ".")
+  else: 
+    print(" Damn " + name + ", " +  "You're a super stoner!")
+    return stoned
+
+def Intro(name):
+  print(name + " ")
+  return Intro
+  
+  #Example Entry
+
+Intro("Dude")
+baked("Dude", 8, 23)
+
