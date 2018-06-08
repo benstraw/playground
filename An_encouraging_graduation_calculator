@@ -1,0 +1,21 @@
+#An encouraging graduation calculator
+
+def graduation_reqs(gpa, credits):
+  if (credits >= 120) and (gpa >= 2.0):
+    return "You meet the requirements to graduate!"
+  else:
+      return "Step it up, Stupid. Your future is mad right now!"
+
+
+print(graduation_reqs(3.0, 120))
+
+#Prints "You meet the requirements to graduate!"
+
+#Example entry
+print(graduation_reqs(2.0, 111))
+
+#Prints "Step it up Stupid. Your future is mad right now!"
+
+
+  
+
